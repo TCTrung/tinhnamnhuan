@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh nam</title>
+</head>
+<body>
+
+<script>
+        let year = parseInt(prompt("Nhap so nam"));
+        if (year % 4 == 0) {
+            if (year % 100 == 0) {
+                if (year % 400 == 0) {
+                    alert("nam nhuan");
+                } else {
+                    alert("nam khong nhuan");
+                }
+            } else {
+                alert("nam nhuan");
+            }
+        } else {
+            alert("nam khong nhuan");
+        }
+</script>
+</body>
+</html>
